@@ -56,8 +56,11 @@
 		431934C621F024EB001206E4 /* goalpost-ske */ = {
 			isa = PBXGroup;
 			children = (
+				431934DF21F0254C001206E4 /* Extensions */,
+				431934DE21F0253A001206E4 /* Enums */,
+				431934DD21F0252C001206E4 /* View */,
+				431934DC21F0251F001206E4 /* Controller */,
 				431934C721F024EB001206E4 /* AppDelegate.swift */,
-				431934C921F024EB001206E4 /* ViewController.swift */,
 				431934CB21F024EB001206E4 /* Main.storyboard */,
 				431934D121F024ED001206E4 /* Assets.xcassets */,
 				431934D321F024ED001206E4 /* LaunchScreen.storyboard */,
@@ -65,6 +68,35 @@
 				431934CE21F024EB001206E4 /* goalpost_ske.xcdatamodeld */,
 			);
 			path = "goalpost-ske";
+			sourceTree = "<group>";
+		};
+		431934DC21F0251F001206E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				431934C921F024EB001206E4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		431934DD21F0252C001206E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		431934DE21F0253A001206E4 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		431934DF21F0254C001206E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
