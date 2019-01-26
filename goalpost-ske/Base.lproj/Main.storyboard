@@ -13,7 +13,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_ske" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_ske" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,6 +43,7 @@
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xJM-Rd-81S"/>
+                                            <segue destination="a8k-VH-cPG" kind="presentation" id="cGQ-N5-eqm"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -173,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="60.869565217391312" y="21.428571428571427"/>
         </scene>
-        <!--View Controller-->
+        <!--Create GoalVC-->
         <scene sceneID="Hj2-1x-wIg">
             <objects>
-                <viewController id="a8k-VH-cPG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="a8k-VH-cPG" customClass="CreateGoalVC" customModule="goalpost_ske" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vg0-ug-5M0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -204,6 +205,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWN-Im-Fyz">
                                         <rect key="frame" x="15" y="33.333333333333329" width="14" height="25"/>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnWasPressed:" destination="a8k-VH-cPG" eventType="touchUpInside" id="bO6-NP-hdS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -244,6 +248,9 @@
                                                 <state key="normal" title="SHORT TERM">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="shortTermBtnWasPressed:" destination="a8k-VH-cPG" eventType="touchUpInside" id="Hw2-YZ-MWc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDT-k6-mPi">
                                                 <rect key="frame" x="192" y="0.0" width="182" height="50"/>
@@ -255,6 +262,9 @@
                                                 <state key="normal" title="LONG TERM">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="longTermBtnWasPressed:" destination="a8k-VH-cPG" eventType="touchUpInside" id="w1Q-FE-Nbe"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -273,6 +283,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextBtnWasPressed:" destination="a8k-VH-cPG" eventType="touchUpInside" id="kzM-ov-dDn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -289,10 +302,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="21G-rH-xLx"/>
                     </view>
+                    <connections>
+                        <outlet property="goalTextView" destination="yWo-ME-A82" id="Yqo-oY-byp"/>
+                        <outlet property="longTermBtn" destination="BDT-k6-mPi" id="J9N-TG-NMj"/>
+                        <outlet property="nextBtn" destination="H8O-ov-5EB" id="LL5-kt-GGg"/>
+                        <outlet property="shortTermBtn" destination="d0Z-jf-0zf" id="iah-Nw-4Ap"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="irE-ue-OD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="702.89855072463774" y="20.758928571428569"/>
+            <point key="canvasLocation" x="780" y="21"/>
         </scene>
     </scenes>
     <resources>

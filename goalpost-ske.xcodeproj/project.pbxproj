@@ -14,6 +14,8 @@
 		431934D221F024ED001206E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431934D121F024ED001206E4 /* Assets.xcassets */; };
 		431934D521F024ED001206E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431934D321F024ED001206E4 /* LaunchScreen.storyboard */; };
 		431934E121F02FF7001206E4 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431934E021F02FF7001206E4 /* GoalCell.swift */; };
+		4379898B21FC97DC008B08F2 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379898A21FC97DC008B08F2 /* CreateGoalVC.swift */; };
+		4379898D21FC9983008B08F2 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379898C21FC9983008B08F2 /* UIViewControllerExt.swift */; };
 		4393DDA421F0A73C0069071F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393DDA321F0A73C0069071F /* GoalType.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		431934D421F024ED001206E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431934D621F024ED001206E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		431934E021F02FF7001206E4 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		4379898A21FC97DC008B08F2 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		4379898C21FC9983008B08F2 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		4393DDA321F0A73C0069071F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				431934C921F024EB001206E4 /* GoalsVC.swift */,
+				4379898A21FC97DC008B08F2 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		431934DF21F0254C001206E4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4379898C21FC9983008B08F2 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				431934E121F02FF7001206E4 /* GoalCell.swift in Sources */,
+				4379898B21FC97DC008B08F2 /* CreateGoalVC.swift in Sources */,
 				4393DDA421F0A73C0069071F /* GoalType.swift in Sources */,
 				431934D021F024EB001206E4 /* goalpost_ske.xcdatamodeld in Sources */,
 				431934CA21F024EB001206E4 /* GoalsVC.swift in Sources */,
+				4379898D21FC9983008B08F2 /* UIViewControllerExt.swift in Sources */,
 				431934C821F024EB001206E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
