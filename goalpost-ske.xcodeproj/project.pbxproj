@@ -18,6 +18,7 @@
 		4379898D21FC9983008B08F2 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379898C21FC9983008B08F2 /* UIViewControllerExt.swift */; };
 		4379898F21FCA0FF008B08F2 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379898E21FCA0FF008B08F2 /* UIViewExt.swift */; };
 		4379899121FCA56D008B08F2 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379899021FCA56D008B08F2 /* UIButtonExt.swift */; };
+		4379899321FCABDF008B08F2 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4379899221FCABDF008B08F2 /* FinishGoalVC.swift */; };
 		4393DDA421F0A73C0069071F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4393DDA321F0A73C0069071F /* GoalType.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		4379898C21FC9983008B08F2 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		4379898E21FCA0FF008B08F2 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		4379899021FCA56D008B08F2 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		4379899221FCABDF008B08F2 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		4393DDA321F0A73C0069071F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 			children = (
 				431934C921F024EB001206E4 /* GoalsVC.swift */,
 				4379898A21FC97DC008B08F2 /* CreateGoalVC.swift */,
+				4379899221FCABDF008B08F2 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				431934CA21F024EB001206E4 /* GoalsVC.swift in Sources */,
 				4379898D21FC9983008B08F2 /* UIViewControllerExt.swift in Sources */,
 				4379899121FCA56D008B08F2 /* UIButtonExt.swift in Sources */,
+				4379899321FCABDF008B08F2 /* FinishGoalVC.swift in Sources */,
 				431934C821F024EB001206E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
